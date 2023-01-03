@@ -1,4 +1,9 @@
-x-ui windows build
-forked from https://github.com/hossinasaadi/x-ui
+x-ui-windows 
+
+forked from 
+
+https://github.com/hossinasaadi/x-ui
+
+compiled for windows
 
 
