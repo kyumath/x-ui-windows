@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	_ "time/tzdata"
 	"x-ui/database"
 	"x-ui/database/model"
 	"x-ui/logger"
@@ -28,7 +29,7 @@ var defaultValueMap = map[string]string{
 	"webKeyFile":         "",
 	"secret":             random.Seq(32),
 	"webBasePath":        "/",
-	"timeLocation":       "Asia/Shanghai",
+	"timeLocation":       "Asia/Tehran",
 	"tgBotEnable":        "false",
 	"tgBotToken":         "",
 	"tgBotChatId":        "0",
