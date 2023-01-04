@@ -1,7 +1,7 @@
 # x-ui-windows
 binary executable release for win64
 
-forked from 
+forked from v0.5.4 of
 
 https://github.com/HexaSoftwareTech/x-ui
 
