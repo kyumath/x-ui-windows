@@ -1,0 +1,15 @@
+:: https://www.baeldung.com/openssl-self-signed-cert
+first install openssl on windows and add "C:\Program Files\OpenSSL-Win64\bin\" to path
+then run this single-line command and follow instruction:
+
+
+openssl req -newkey rsa:2048 -nodes -keyout domain.key -x509 -days 3650 -out domain.crt
+
+
+
+rename domain.key and domain.crt with whatever you want
+note: .crt and .cer extension are equivalent (no difference between but
+you can convert between encodings by double-click->details->copy to file)
+
+
+
