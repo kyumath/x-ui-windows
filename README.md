@@ -1,5 +1,5 @@
 # x-ui-windows
-**binary executable for windows 64-bit**
+**binary executable of v2ray x-ui web panel for windows 64-bit**
 
 forked from
 
