@@ -1,25 +1,35 @@
 # x-ui-windows
-binary executable release for win64
+**binary executable for windows 64-bit**
 
-forked from v0.5.4 of
+forked from
 
-https://github.com/HexaSoftwareTech/x-ui
+https://github.com/HexaSoftwareTech/x-ui  (V0.5.4)
+
 
 ------------------------------------------------------------------
 # how to run :
 
-just download from "release" and double click on xui-main.exe
-
+- download from "release"
+- double click on xui-main.exe
 - open browser [http://127.0.0.1:54321]
 - user = admin
 - pass = admin
 
-note:
+**windows firewall:**
 
 - allow xui-main.exe in windows firewall
 - allow xray-windows-amd64.exe in windows firewall 
 
-other usefull commands:
+**(optional) Block IR/China/Bittorrent/Ads/P0*n:**
+
+- paste configuration inside xray_core_config.txt into "panel setting" -> "xray configuration" to block these IPs/Sites
+
+**(optional) self-signed certificate:**
+
+- you can use fake cert inside self_certificate to bypass GFW censorship or make your own certificate using openssl.exe
+- client must check "allow Insecure" to accept these certificate because its not authorized by Root-CA
+
+**other usefull commands:**
 
 - xui-main.exe /?
 - xui-main.exe -h
@@ -38,18 +48,6 @@ other usefull commands:
 - cd to xui-windows directory and run :
 - go build -o main.exe main.go
 - rename main.exe to xui-main.exe
-- run xui-main.exe
-
-enjoy with 127.0.0.1:54321
-- user:admin
-- pass:admin
-
-you may need:
-- allow xui-main.exe in windows firewall
-- allow xray-windows-amd64.exe in windows firewall
-
-reset setting by:
-- xui-main.exe setting -reset
 
 --------------------------------------------------------------------
 # changelog
