@@ -2,7 +2,7 @@ x-ui-windows
 
 forked from 
 
-https://github.com/hossinasaadi/x-ui
+https://github.com/HexaSoftwareTech/x-ui
 
 compiled for windows
 
