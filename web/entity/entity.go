@@ -6,6 +6,7 @@ import (
 	"net"
 	"strings"
 	"time"
+	_ "time/tzdata"
 	"x-ui/util/common"
 	"x-ui/xray"
 )
