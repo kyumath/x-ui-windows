@@ -1,4 +1,6 @@
 :: https://www.baeldung.com/openssl-self-signed-cert
+:: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1
+
 first install openssl on windows and add "C:\Program Files\OpenSSL-Win64\bin\" to path
 then run this single-line command and follow instruction:
 
